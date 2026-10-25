@@ -408,18 +408,19 @@ div.rigadestra{
     line-height: 1.4 !important;
     padding: 0 10px !important;
     margin-top: 15px !important;
-    margin-bottom: 5px !important;
+    margin-bottom: 0 !important;
     order: 1 !important;
   }
 
-  body.pagina-tre hr {
+  body.pagina-tre hr:nth-of-type(1) {
     width: 90% !important;
-    margin: 10px auto !important;
+    margin: 5px auto !important;
+    display: block !important;
     order: 2 !important;
   }
 
   body.pagina-tre nav {
-    margin: 15px auto !important;
+    margin: 5px auto 15px auto !important;
     order: 3 !important;
   }
 
@@ -478,10 +479,12 @@ div.rigadestra{
   body.pagina-tre img.penna3 { order: 12 !important; }
   body.pagina-tre img.penna4 { order: 13 !important; }
 
-  body.pagina-tre br {
+  body.pagina-tre br,
+  body.pagina-tre hr:not(:nth-of-type(1)) {
     display: none !important;
   }
 }
+
 
 
 
