@@ -194,7 +194,7 @@ img.penna2{
 img.penna3{
     position:absolute;
     top:430px;
-    right:140px;
+    right:100px;
     width:540px;
     height:530px;
 }
@@ -202,7 +202,7 @@ img.penna3{
 img.penna4{
     position:absolute;
     top:700px;
-    right:65px;
+    right:25px;
     width:350px;
     height:330px;
     transform:rotate(5deg);
