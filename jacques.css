@@ -334,20 +334,26 @@ div.rigadestra{
   body.pagina-interna h2:not(.title2),
   body.pagina-interna h3 {
     text-align: center !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    margin-top: 15px !important;
+    margin-bottom: 10px !important;
   }
 
   body.pagina-interna p {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
     font-size: 16px !important;
     text-align: left !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   body.pagina-interna img {
     position: static !important;
     display: block !important;
-    margin: 15px auto !important;
-    max-width: 90% !important;
+    margin: 20px auto !important;
+    max-width: 85% !important;
     height: auto !important;
   }
 
@@ -360,40 +366,90 @@ div.rigadestra{
   body.pagina-interna div.colonnadestra,
   body.pagina-interna div.rigasinistra,
   body.pagina-interna div.rigadestra {
-    display: contents !important;
+    display: flex !important;
+    flex-direction: column !important;
+    float: none !important;
+    clear: both !important;
+    width: 92% !important;
+    margin: 10px auto !important;
+    padding: 15px 5px !important;
+    box-sizing: border-box !important;
+    order: 4 !important;
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    border-radius: 8px !important;
   }
 
-  body.pagina-interna h3:nth-of-type(1),
-  body.pagina-interna h2:nth-of-type(1) { 
+  body.pagina-interna div.colonnasinistra > h2:nth-of-type(1),
+  body.pagina-interna div.colonnasinistra > h3:nth-of-type(1),
+  body.pagina-interna div.colonnadestra > h2:nth-of-type(1),
+  body.pagina-interna div.colonnadestra > h3:nth-of-type(1),
+  body.pagina-interna div.rigasinistra > h2:nth-of-type(1),
+  body.pagina-interna div.rigasinistra > h3:nth-of-type(1),
+  body.pagina-interna div.rigadestra > h2:nth-of-type(1),
+  body.pagina-interna div.rigadestra > h3:nth-of-type(1) { 
+    order: 1 !important; 
+  }
+
+  body.pagina-interna div.colonnasinistra > p:nth-of-type(1),
+  body.pagina-interna div.colonnasinistra > p:nth-of-type(2),
+  body.pagina-interna div.colonnadestra > p:nth-of-type(1),
+  body.pagina-interna div.colonnadestra > p:nth-of-type(2),
+  body.pagina-interna div.rigasinistra > p:nth-of-type(1),
+  body.pagina-interna div.rigasinistra > p:nth-of-type(2),
+  body.pagina-interna div.rigadestra > p:nth-of-type(1),
+  body.pagina-interna div.rigadestra > p:nth-of-type(2) { 
+    order: 2 !important; 
+  }
+
+  body.pagina-interna div.colonnasinistra > img:nth-of-type(1),
+  body.pagina-interna div.colonnasinistra > img:nth-of-type(2),
+  body.pagina-interna div.colonnadestra > img:nth-of-type(1),
+  body.pagina-interna div.colonnadestra > img:nth-of-type(2),
+  body.pagina-interna div.rigasinistra > img:nth-of-type(1),
+  body.pagina-interna div.rigasinistra > img:nth-of-type(2),
+  body.pagina-interna div.rigadestra > img:nth-of-type(1),
+  body.pagina-interna div.rigadestra > img:nth-of-type(2) { 
+    order: 3 !important; 
+  }
+
+  body.pagina-interna div.colonnasinistra > h2:nth-of-type(2),
+  body.pagina-interna div.colonnasinistra > h3:nth-of-type(2),
+  body.pagina-interna div.colonnadestra > h2:nth-of-type(2),
+  body.pagina-interna div.colonnadestra > h3:nth-of-type(2),
+  body.pagina-interna div.rigasinistra > h2:nth-of-type(2),
+  body.pagina-interna div.rigasinistra > h3:nth-of-type(2),
+  body.pagina-interna div.rigadestra > h2:nth-of-type(2),
+  body.pagina-interna div.rigadestra > h3:nth-of-type(2) { 
     order: 4 !important; 
   }
 
-  body.pagina-interna p:nth-of-type(1),
-  body.pagina-interna p:nth-of-type(2) { 
+  body.pagina-interna div.colonnasinistra > p:nth-of-type(3),
+  body.pagina-interna div.colonnasinistra > p:nth-of-type(4),
+  body.pagina-interna div.colonnasinistra > p:nth-of-type(5),
+  body.pagina-interna div.colonnadestra > p:nth-of-type(3),
+  body.pagina-interna div.colonnadestra > p:nth-of-type(4),
+  body.pagina-interna div.colonnadestra > p:nth-of-type(5),
+  body.pagina-interna div.rigasinistra > p:nth-of-type(3),
+  body.pagina-interna div.rigasinistra > p:nth-of-type(4),
+  body.pagina-interna div.rigasinistra > p:nth-of-type(5),
+  body.pagina-interna div.rigadestra > p:nth-of-type(3),
+  body.pagina-interna div.rigadestra > p:nth-of-type(4),
+  body.pagina-interna div.rigadestra > p:nth-of-type(5) { 
     order: 5 !important; 
   }
 
-  body.pagina-interna img:nth-of-type(1),
-  body.pagina-interna img:nth-of-type(2) { 
+  body.pagina-interna div.colonnasinistra > img:nth-of-type(3),
+  body.pagina-interna div.colonnasinistra > img:nth-of-type(4),
+  body.pagina-interna div.colonnadestra > img:nth-of-type(3),
+  body.pagina-interna div.colonnadestra > img:nth-of-type(4),
+  body.pagina-interna div.rigasinistra > img:nth-of-type(3),
+  body.pagina-interna div.rigasinistra > img:nth-of-type(4),
+  body.pagina-interna div.rigadestra > img:nth-of-type(3),
+  body.pagina-interna div.rigadestra > img:nth-of-type(4) { 
     order: 6 !important; 
   }
-
-  body.pagina-interna h3:nth-of-type(2),
-  body.pagina-interna h2:nth-of-type(2) { 
-    order: 7 !important; 
-  }
-
-  body.pagina-interna p:nth-of-type(3),
-  body.pagina-interna p:nth-of-type(4),
-  body.pagina-interna p:nth-of-type(5) { 
-    order: 8 !important; 
-  }
-
-  body.pagina-interna img:nth-of-type(3),
-  body.pagina-interna img:nth-of-type(4) { 
-    order: 9 !important; 
-  }
 }
+
 
 
 
