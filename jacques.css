@@ -15,9 +15,19 @@ p{
     padding-left:70px;
 }
 
+hr.primo{
+    width:1200px;
+}
+
 p.centrato{
     padding-left:0px;
     text-align:center;
+}
+
+p.centrato2{
+    padding-left:0px;
+    text-align:center;
+    font-size:23px;
 }
 
 h3.title{
@@ -35,6 +45,13 @@ h3.title3{
 
 }
 
+h3.title4{
+    color:goldenrod;
+    font-size:19px;
+    padding-top:30px;
+    padding-left:100px;
+}
+
 h2.title2 {
     color: tomato;
     font-size: 30px;
@@ -46,6 +63,14 @@ h2.title2 {
     top: 180px;                  
     width: auto;
     white-space: nowrap;        
+}
+
+h2.title6{
+    color:goldenrod;
+    font-size:26px;
+    padding-top:30px;
+    text-align:center;
+    padding-left:0px;
 }
 
 
@@ -208,6 +233,92 @@ img.penna4{
     transform:rotate(5deg);
 }
 
+img.penna5{
+    position:absolute;
+    left:-80px;
+    top:110px;
+    width:630px;
+    height:135px;
+}
+
+img.penna6{
+    position:absolute;
+    right:-80px;
+    top:110px;
+    width:600px;
+    height:135px;
+}
+
+img.penna7{
+    position:absolute;
+    top:720px;
+    left:-80px;
+    width:400px;
+    height:600px;
+    transform: rotate(18deg);
+}
+
+img.penna8{
+    position:absolute;
+    top:1470px;
+    right:-60px;
+    width:300px;
+    height:260px;
+}
+
+img.penna9{
+    position:absolute;
+    top:2130px;
+    left:35px;
+    width:300px;
+    height:260px;
+    transform:rotate(45deg);
+}
+
+img.penna10{
+    position:absolute;
+    top:2910px;
+    right:35px;
+    width:300px;
+    height:260px;
+    transform:rotate(72deg);
+}
+
+img.penna11{
+    position:absolute;
+    top:3680px;
+    left:15px;
+    width:300px;
+    height:260px;
+    transform:rotate(15deg);
+}
+
+img.penna12{
+    position:absolute;
+    top:4310px;
+    right:45px;
+    width:300px;
+    height:260px;
+    transform:rotate(-9deg);
+}
+
+img.penna13{
+    position:absolute;
+    top:4990px;
+    left:4px;
+    width:300px;
+    height:260px;
+    transform:rotate(89deg);
+}
+
+img.penna14{
+    position:absolute;
+    top:5380px;
+    right:45px;
+    width:300px;
+    height:260px;
+    transform:rotate(-69deg)
+}
 
 div.rigasinistra{
     float:left;
