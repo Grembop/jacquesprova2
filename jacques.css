@@ -321,7 +321,7 @@ div.rigadestra{
 
   body.pagina-interna nav {
     text-align: center !important;
-    margin: 10px 0 !important;
+    margin: 15px 0 !important;
     width: 100% !important;
     order: 3 !important;
   }
@@ -338,7 +338,7 @@ div.rigadestra{
     left: auto !important;
     right: auto !important;
     text-align: center !important;
-    margin: 25px auto 5px auto !important;
+    margin: 30px auto 15px auto !important;
     padding: 0 !important;
     display: block !important;
     width: 100% !important;
@@ -403,22 +403,23 @@ div.rigadestra{
   }
 
   body.pagina-tre h1 {
-    letter-spacing: 0.1em !important;
+    letter-spacing: 0.05em !important;
     font-size: 20px !important;
-    line-height: 1.3 !important;
+    line-height: 1.4 !important;
     padding: 0 10px !important;
+    margin-top: 15px !important;
     margin-bottom: 5px !important;
     order: 1 !important;
   }
 
   body.pagina-tre hr {
     width: 90% !important;
-    margin: 5px auto !important;
+    margin: 10px auto !important;
     order: 2 !important;
   }
 
   body.pagina-tre nav {
-    margin: 5px 0 !important;
+    margin: 15px auto !important;
     order: 3 !important;
   }
 
@@ -428,19 +429,20 @@ div.rigadestra{
     text-align: center !important;
     position: static !important;
     transform: none !important;
-    margin-top: 20px !important;
-    margin-bottom: 5px !important;
+    margin-top: 35px !important;
+    margin-bottom: 15px !important;
   }
 
   body.pagina-tre p.centrato {
     padding-left: 20px !important;
     padding-right: 20px !important;
     font-size: 16px !important;
-    text-align: justify !important;
-    line-height: 1.4 !important;
+    text-align: center !important;
+    line-height: 1.6 !important;
     width: 100% !important;
     box-sizing: border-box !important;
-    margin: 5px auto !important;
+    margin-top: 10px !important;
+    margin-bottom: 25px !important;
     display: block !important;
     position: static !important;
     transform: none !important;
@@ -452,8 +454,8 @@ div.rigadestra{
   body.pagina-tre img.penna4 {
     position: static !important;
     display: block !important;
-    margin: 10px auto !important;
-    max-width: 75% !important;
+    margin: 20px auto !important;
+    max-width: 80% !important;
     height: auto !important;
   }
 
@@ -461,10 +463,7 @@ div.rigadestra{
   body.pagina-tre p.centrato:nth-of-type(1)  { order: 5 !important; }
 
   body.pagina-tre h3.title3:nth-of-type(2) { order: 6 !important; }
-  body.pagina-tre p.centrato:nth-of-type(2)  { 
-    order: 7 !important; 
-    text-align: center !important; 
-  }
+  body.pagina-tre p.centrato:nth-of-type(2)  { order: 7 !important; }
   body.pagina-tre p.centrato:nth-of-type(2) span {
     display: block !important;
     text-align: center !important;
@@ -483,6 +482,7 @@ div.rigadestra{
     display: none !important;
   }
 }
+
 
 
 
