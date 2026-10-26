@@ -397,6 +397,8 @@ div.rigadestra{
   body:not(.pagina-interna) {
     display: flex !important;
     flex-direction: column !important;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
   }
 
   body:not(.pagina-interna) h1 {
@@ -404,7 +406,7 @@ div.rigadestra{
     font-size: 20px !important;
     line-height: 1.4 !important;
     padding: 0 10px !important;
-    margin-top: 15px !important;
+    margin-top: 10px !important;
     margin-bottom: 0 !important;
     order: 1 !important;
     text-align: center !important;
@@ -423,6 +425,7 @@ div.rigadestra{
   body:not(.pagina-interna) div.colonnasinistra { order: 7 !important; }
   body:not(.pagina-interna) div.rigadestra { order: 8 !important; }
   body:not(.pagina-interna) div.rigasinistra { order: 9 !important; }
+  
   body:not(.pagina-interna) > hr:not(:nth-of-type(1)), 
   body:not(.pagina-interna) > br { 
     display: none !important; 
@@ -431,6 +434,8 @@ div.rigadestra{
   body.pagina-interna {
     display: flex !important;
     flex-direction: column !important;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
   }
 
   body.pagina-interna h2.title2 {
@@ -450,7 +455,7 @@ div.rigadestra{
     font-size: 20px !important;
     line-height: 1.4 !important;
     padding: 0 10px !important;
-    margin-top: 15px !important;
+    margin-top: 10px !important;
     margin-bottom: 0 !important;
     text-align: center !important;
     order: 1 !important;
@@ -604,7 +609,9 @@ div.rigadestra{
   body.pagina-tre br,
   body.pagina-tre hr:not(:nth-of-type(1)),
   body.pagina-quattro br,
-  body.pagina-quattro hr:not(:nth-of-type(1)) {
+  body.pagina-quattro hr:not(:nth-of-type(1)),
+  body.pagina-interna:not(.pagina-tre):not(.pagina-quattro) br,
+  body.pagina-interna:not(.pagina-tre):not(.pagina-quattro) > hr:not(:nth-of-type(1)) {
     display: none !important;
   }
 
@@ -653,7 +660,6 @@ div.rigadestra{
     text-align: justify !important;
     margin-top: 5px !important;
     margin-bottom: 20px !important;
-    line-height: 1.5 !important;
   }
 }
 
