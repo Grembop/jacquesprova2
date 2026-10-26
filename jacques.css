@@ -609,7 +609,7 @@ div.rigadestra{
     margin: 10px auto !important;
     max-width: 50% !important;
     height: auto !important;
-    order: 100 !important; 
+    order: 20 !important; 
   }
 
   body.pagina-quattro h3.title3 {
@@ -619,13 +619,17 @@ div.rigadestra{
     text-align: center !important;
   }
 
-  body.pagina-quattro h2.title6 {
+  body.pagina-quattro h2.title6,
+  body.pagina-quattro p.centrato2 {
     position: static !important;
     transform: none !important;
     display: block !important;
     width: 100% !important;
     box-sizing: border-box !important;
-    order: 5 !important;
+    order: 5 !important; /* Entrambi hanno lo stesso ordine per rispettare la sequenza HTML naturale */
+  }
+
+  body.pagina-quattro h2.title6 {
     font-size: 18px !important;
     color: #cca43b !important; 
     padding: 0 20px !important;
@@ -636,12 +640,6 @@ div.rigadestra{
   }
 
   body.pagina-quattro p.centrato2 {
-    position: static !important;
-    transform: none !important;
-    display: block !important;
-    width: 100% !important;
-    box-sizing: border-box !important;
-    order: 6 !important;
     font-size: 15px !important;
     padding: 0 25px !important;
     text-align: justify !important;
@@ -650,6 +648,7 @@ div.rigadestra{
     line-height: 1.5 !important;
   }
 }
+
 
 
 
